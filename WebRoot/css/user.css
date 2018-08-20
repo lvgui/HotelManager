@@ -1,0 +1,8 @@
+@CHARSET "UTF-8";
+#user-page{
+	width:750px;text-align:center;
+}
+#user-page h2{line-height:80px;margin:20px 0;}
+#user-page table{width:600px;}
+#user-page table tr{background-color:#ececec;line-height:40px;height:40px;}
+#user-page th{font-weight:bold;}

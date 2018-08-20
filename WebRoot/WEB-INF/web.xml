@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>HotelManagerSystem</display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManageJudgeServlet</servlet-name>
+    <servlet-class>com.zuiuxi.servlet.ManageJudgeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>JugdeManagerPageServlet</servlet-name>
+    <servlet-class>com.zuiuxi.servlet.JugdeManagerPageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HomeServlet</servlet-name>
+    <servlet-class>com.zuiuxi.servlet.HomeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HomeTypeAllServlet</servlet-name>
+    <servlet-class>com.zuiuxi.servlet.HomeTypeAllServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangeHomeDisServlet</servlet-name>
+    <servlet-class>com.zuiuxi.servlet.ChangeHomeDisServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangeHomePriServlet</servlet-name>
+    <servlet-class>com.zuiuxi.servlet.ChangeHomePriServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SelectHomeServlet</servlet-name>
+    <servlet-class>com.zuiuxi.servlet.SelectHomeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddHomeTypeServlet</servlet-name>
+    <servlet-class>com.zuiuxi.servlet.AddHomeTypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangeHomeNumServlet</servlet-name>
+    <servlet-class>com.zuiuxi.servlet.ChangeHomeNumServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelHomeNumServlet</servlet-name>
+    <servlet-class>com.zuiuxi.servlet.DelHomeNumServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangeHomeTypeServlet</servlet-name>
+    <servlet-class>com.zuiuxi.servlet.ChangeHomeTypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangeHomeImgServlet</servlet-name>
+    <servlet-class>com.zuiuxi.servlet.ChangeHomeImgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerAllServlet</servlet-name>
+    <servlet-class>com.zuiuxi.servlet.CustomerAllServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>JudgeHomeNumServlet</servlet-name>
+    <servlet-class>com.zuiuxi.servlet.JudgeHomeNumServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindAllHomeCanInServlet</servlet-name>
+    <servlet-class>com.zuiuxi.servlet.FindAllHomeCanInServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SelectHomeByNumServlet</servlet-name>
+    <servlet-class>com.zuiuxi.servlet.SelectHomeByNumServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>ManageJudgeServlet</servlet-name>
+    <url-pattern>/ManageJudgeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JugdeManagerPageServlet</servlet-name>
+    <url-pattern>/JugdeManagerPageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HomeServlet</servlet-name>
+    <url-pattern>/HomeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HomeTypeAllServlet</servlet-name>
+    <url-pattern>/HomeTypeAllServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeHomeDisServlet</servlet-name>
+    <url-pattern>/ChangeHomeDisServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeHomePriServlet</servlet-name>
+    <url-pattern>/ChangeHomePriServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectHomeServlet</servlet-name>
+    <url-pattern>/SelectHomeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddHomeTypeServlet</servlet-name>
+    <url-pattern>/AddHomeTypeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeHomeNumServlet</servlet-name>
+    <url-pattern>/ChangeHomeNumServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelHomeNumServlet</servlet-name>
+    <url-pattern>/DelHomeNumServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeHomeTypeServlet</servlet-name>
+    <url-pattern>/ChangeHomeTypeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeHomeImgServlet</servlet-name>
+    <url-pattern>/ChangeHomeImgServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerAllServlet</servlet-name>
+    <url-pattern>/CustomerAllServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JudgeHomeNumServlet</servlet-name>
+    <url-pattern>/JudgeHomeNumServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindAllHomeCanInServlet</servlet-name>
+    <url-pattern>/FindAllHomeCanInServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectHomeByNumServlet</servlet-name>
+    <url-pattern>/SelectHomeByNumServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <filter> 
+        <filter-name>encodingfilter</filter-name> 
+        <filter-class>com.zuiuxi.filter.SetCharacterEncodingFilter</filter-class> 
+        <init-param> 
+            <param-name>encoding</param-name> 
+            <param-value>utf-8</param-value> 
+        </init-param> 
+    </filter> 
+    <filter-mapping> 
+        <filter-name>encodingfilter</filter-name> 
+        <url-pattern>/*</url-pattern> 
+    </filter-mapping>
+</web-app>
